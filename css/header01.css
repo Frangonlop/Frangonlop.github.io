@@ -1,0 +1,83 @@
+body{
+    background-image: url("../img/header01/hero.png");
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+header>img{
+    position: absolute;
+}
+h1>span{
+    color: #7EDAD2;
+}
+header>nav>ul{
+    justify-content: end;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-right: 8%;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    font-family:"Bebas Neue", serif;
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 0;
+    line-height: 80px;
+}
+div:first-of-type{
+    width: 500px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+div:first-of-type>p{
+    margin-bottom: 40px;
+
+}
+.button{
+    background-color: #7EDAD2;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+section:first-of-type{
+    display: flex;
+    gap: 30px;
+}
+section:first-of-type>article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:first-of-type>article>p{
+    width: fit-content;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.data{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+section:last-of-type{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+section:last-of-type article{
+    background-color: white;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+}

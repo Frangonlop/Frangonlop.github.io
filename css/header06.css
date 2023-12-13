@@ -1,0 +1,122 @@
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+header>nav>ul{
+    display:flex;
+    list-style-type: none;
+    gap: 40px;
+}
+ul>li>a{
+    color: #264065;
+    text-decoration: none;
+}
+.account{
+    display: flex;
+    gap:50px;
+    align-items: center;
+}
+.button{
+    background-color: #264065;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+main h1{
+    color: #264065;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+.register>a:first-of-type{
+    color: #264065;
+    margin-right: 20px;
+}
+.services{
+    display: flex;
+    gap: 40px;
+    width: 35%;
+}
+.services>article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services>article>img{
+    width: 60px;
+}
+.number{
+    color: #264065;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.number+p{
+    color: #909090;
+    text-align: center;
+}
+.hero{
+    width: 50%;
+    margin-bottom:80px;
+}
+h1+p{
+    color: #909090;
+    font-size: large;
+    margin-bottom: 50px;
+}
+.button2{
+    color: #264065;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.opinion{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 40px;
+    position: absolute;
+    right: 4%;
+    top: 50%;
+}
+.opinion>article{
+    padding: 10px;
+    background-color: #FFFFFF80;
+    border-radius: 5px;
+    width: 70%;
+}
+.opinion>article:first-of-type{
+    align-self: flex-end;
+}
+.opinion>article:last-of-type{
+    align-self: flex-start;
+}
+span{
+    color:#264065;
+    font-weight: bold;
+}
+.background{
+    background-color: #A9D6CB;
+    width: 30%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.background+img{
+    position: absolute;
+    width: 70%;
+    top: 5%;
+    right: 10%;
+    z-index: -1;
+}

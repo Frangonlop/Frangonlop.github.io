@@ -1,0 +1,100 @@
+header{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 80px;
+}
+header>nav{
+    display: flex;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+header a{
+    color: #424241;
+    text-decoration: none;
+    opacity: 50%;
+}
+.home{
+    opacity: 100%;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: #424241;
+    background-image: linear-gradient(to right, #FAF8F5 50%, #DEDAD5 50%);
+}
+h1{
+    font-family: "PLayfair Display", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #424241;
+    margin: 0;
+    line-height: 70px;
+}
+div.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+div.hero{
+    width: 50%;
+}
+.button{
+    background-color: #424241;
+    padding: 10px;
+    color: #FAF8F5;
+    text-decoration: none;
+}
+.button2{
+    color: #424241;
+    text-decoration: none;
+    margin-left: 30px;
+}
+h1+p{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.stats{
+    margin-top: 140px;
+    display: flex;
+    gap: 20px;
+}
+.stats>div{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    font-weight: 500;
+    font-size: 40px;
+    color: #424241;
+    margin: 0;
+}
+.services>h4{
+    margin: 0;
+}
+.services{
+    position: absolute;
+    width: 250px;
+    background-color: #FAF8F5;
+    padding: 20px;
+    right: 190px;
+    top: 400px;
+}
+.services>div{
+    display: flex;
+    gap: 10px;
+}
+.services>div>img{
+    margin-left: auto;
+}
+.images{
+    position:absolute;
+    display: flex;
+    gap: 30px;
+    right: 180px;
+    top: 120px;
+    z-index: -1;
+}
+.images img{
+    width: 320px;
+}

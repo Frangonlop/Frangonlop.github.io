@@ -1,0 +1,82 @@
+body{
+    background-image: url("../img/header02/smiling-creative-business-team-discussing-over-lap-566JQTQ\ 1.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+    background-color: #515DEF;
+}
+header>img{
+    position: absolute;
+    left: 5%;
+}
+header>nav>ul{
+    margin-left: 15%;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin-right: 8%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+header li:last-of-type{
+    background-color: #515DEF;
+    padding: 10px;
+    position: absolute;
+    right: 10%;
+}
+h1{
+    font-family:"Poppins", serif;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 60px;
+}
+div:first-of-type{
+    padding-left: 5%;
+    width: 600px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.button{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+div p{
+    color: white;
+    margin-bottom: 0;
+}
+div p:last-of-type{
+    margin-bottom: 40px;
+}
+section{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+}
+section article{
+    padding: 20px;
+}
+section>article:first-of-type{
+    margin-left: 5%;
+}
+article p{
+    color:gray;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}

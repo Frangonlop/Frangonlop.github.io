@@ -1,0 +1,120 @@
+body{
+    padding-left: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 20px;
+    background-image: linear-gradient( to right, white 0% 50%, #2E2F38 50%);
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+header a{
+    color: #2E2F38;
+    text-decoration: none;
+}
+h1{
+    font-family: "Belgrano", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+aside{
+    background-color: #2E2F38;
+}
+.main{
+    display: flex;
+}
+.artwork div{
+    display: flex;
+    gap: 10px;
+}
+main{
+    width: 50%;
+}
+aside{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 90px;
+}
+.numbers>div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+aside>img{
+    width: 100%;
+}
+.numbers p{
+    color: white;
+}
+p.number{
+    color: #FA504D;
+    font-size: x-large;
+}
+.details{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 100px;
+}
+.details div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details div:last-of-type{
+    margin-left: auto;
+}
+.details> article:first-of-type{
+    display: flex;
+}
+.details div p{
+    margin: 0;
+}
+.linea{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.button{
+    background-color: #FA504D;
+    padding: 10px 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header>nav>ul>li:nth-last-child(2)>a{
+    color: white;
+    position:relative;
+    margin-left: 400px;
+}
+.button2{
+    color: red;
+    text-decoration: none;
+    margin-left: 30%;
+}
+.artwork img{
+    width: 100%;
+}
+.learn{
+    color: black;
+    margin-left: 20px;
+}
+.hero>p{
+    color: #8E8E8E;
+    margin-bottom: 40px;
+}
+.hero{
+    margin-bottom: 80px;
+}

@@ -1,0 +1,99 @@
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+header{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+header>nav>ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: center;
+
+}
+li:first-of-type>a{
+    color:#9B9A78;
+}
+header a{
+    color:#313131;
+    text-decoration: none;
+}
+h1{
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    color: #313131;
+    width: 60%;
+    margin: 0;
+}
+.button{
+    padding: 10px 20px;
+    color: white;
+    background-color: #9B9A78;
+}
+header aside>a:first-of-type{
+    text-decoration: underline;
+    color: #9B9A78;
+}
+header aside{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+main>section:last-of-type{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main>section:last-of-type article{
+    width: 25%;
+}
+.image{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/header03/Placeholder.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+main>section:first-of-type{
+    display: flex;
+}
+.title{
+    background-image: linear-gradient(to left, white, rgba(255, 255, 255, 0.712));
+    position: relative;
+    right: 15%;
+    padding: 20px;
+    margin-top: 30px;
+}
+.check{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20%;
+}
+.check p::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/header03/Check.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 2%;
+}
+h1::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/header03/Rectangle.svg);
+
+    width: 100px;
+    height: 10px;
+}
