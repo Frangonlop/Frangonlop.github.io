@@ -1,0 +1,20 @@
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgb(33, 40, 50);
+}
+
+.nav-logo {
+  color: rgb(0, 97, 242);
+}
+
+.bg-hero {
+  background-color: rgb(242, 246, 252);
+}
+
+.w-20px {
+  width: 20px;
+}
+
+.w-60 {
+  width: 60%;
+}/*# sourceMappingURL=index.css.map */
