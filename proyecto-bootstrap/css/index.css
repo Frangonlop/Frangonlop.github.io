@@ -26,4 +26,8 @@
     list-style-type: none;
     padding-left: 0;
 }
+.text-xs{
+  font-size: 16px;
+  font-weight: bold;
+}
 /*# sourceMappingURL=index.css.map */
