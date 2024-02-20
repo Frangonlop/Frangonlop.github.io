@@ -1,7 +1,7 @@
 import Tablero from './tablero';
 import './style.scss';
-// import Toastify from 'toastify-js'
-// import "toastify-js/src/toastify.css"
+import Toastify from 'toastify-js'
+import "toastify-js/src/toastify.css"
 import Marcador from './marcador';
 
 const buttonCreateTable = document.getElementById('createTable');
