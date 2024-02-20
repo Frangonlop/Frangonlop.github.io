@@ -1,7 +1,7 @@
 import Tablero from './tablero';
 import './style.scss';
-import Toastify from 'toastify-js'
-import "toastify-js/src/toastify.css"
+// import Toastify from 'toastify-js'
+// import "toastify-js/src/toastify.css"
 import Marcador from './marcador';
 
 const buttonCreateTable = document.getElementById('createTable');
@@ -25,19 +25,19 @@ document.getElementById('option3').addEventListener('click', ()=>{
 });
 buttonCreateTable.addEventListener('click', (e) => {
   if (!inputDimensions.value) {
-    Toastify({
-      text: "Debe indicar una dimensión válida",
-      duration: 3000,
-      newWindow: false,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "right", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "red",
-      },
-      onClick: function(){} // Callback after click
-    }).showToast();
+    // Toastify({
+    //   text: "Debe indicar una dimensión válida",
+    //   duration: 3000,
+    //   newWindow: false,
+    //   close: true,
+    //   gravity: "top", // `top` or `bottom`
+    //   position: "right", // `left`, `center` or `right`
+    //   stopOnFocus: true, // Prevents dismissing of toast on hover
+    //   style: {
+    //     background: "red",
+    //   },
+    //   onClick: function(){} // Callback after click
+    // }).showToast();
 
     inputDimensions.classList.add('error');
     inputDimensions.focus();
@@ -45,19 +45,19 @@ buttonCreateTable.addEventListener('click', (e) => {
   }
   
   if (isNaN(inputDimensions.value)) {
-    Toastify({
-      text: "Debe introducir un número válido",
-      duration: 3000,
-      newWindow: true,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "right", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "red",
-      },
-      onClick: function(){} // Callback after click
-    }).showToast();
+    // Toastify({
+    //   text: "Debe introducir un número válido",
+    //   duration: 3000,
+    //   newWindow: true,
+    //   close: true,
+    //   gravity: "top", // `top` or `bottom`
+    //   position: "right", // `left`, `center` or `right`
+    //   stopOnFocus: true, // Prevents dismissing of toast on hover
+    //   style: {
+    //     background: "red",
+    //   },
+    //   onClick: function(){} // Callback after click
+    // }).showToast();
     
     inputDimensions.classList.add('error');
     inputDimensions.focus();
@@ -65,19 +65,19 @@ buttonCreateTable.addEventListener('click', (e) => {
   }
 
   if (!rondas.value || isNaN(rondas.value)) {
-    Toastify({
-      text: "Debe indicar un número de rondas válido",
-      duration: 3000,
-      newWindow: false,
-      close: true,
-      gravity: "top", // `top` or `bottom`
-      position: "right", // `left`, `center` or `right`
-      stopOnFocus: true, // Prevents dismissing of toast on hover
-      style: {
-        background: "red",
-      },
-      onClick: function(){} // Callback after click
-    }).showToast();
+    // Toastify({
+    //   text: "Debe indicar un número de rondas válido",
+    //   duration: 3000,
+    //   newWindow: false,
+    //   close: true,
+    //   gravity: "top", // `top` or `bottom`
+    //   position: "right", // `left`, `center` or `right`
+    //   stopOnFocus: true, // Prevents dismissing of toast on hover
+    //   style: {
+    //     background: "red",
+    //   },
+    //   onClick: function(){} // Callback after click
+    // }).showToast();
 
     rondas.classList.add('error');
     rondas.focus();
