@@ -56,10 +56,6 @@ class Marcador {
   }
 }
 
-import Toastify from 'toastify-js'
-import "toastify-js/src/toastify.css"
-import Marcador from './marcador';
-
 class Tablero {
   #casillas;  // Este será el array de arrays donde guardaremos lo que hay en cada posición
   #dimension; // Esta variable determinará el tamaño del tablero
