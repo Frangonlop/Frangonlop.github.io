@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <div class="pass">
+        <input type="text" id="password" placeholder="P4$5W0rD!" readonly>
+        <button id="copyButton" disabled><img src="assets/images/icon-copy.svg" alt=""></button>
+      </div>
+    <form id="passwordForm">
+      <div class="long">
+        <label for="length">Character Length:</label>
+        <output id="lengthValue">10</output>
+      </div>
+      <input type="range" id="length" name="length" min="0" max="20" value="10">
+      <div>
+        <input type="checkbox" id="upper" name="upper">
+        <label for="upper">Include Uppercase Letters</label>
+      </div>
+      <div>
+        <input type="checkbox" id="lower" name="lower">
+        <label for="lower">Include Lowercase Letters</label>
+      </div>
+      <div>
+        <input type="checkbox" id="num" name="num">
+        <label for="num">Include Numbers</label>
+      </div>
+      <div>
+        <input type="checkbox" id="symbol" name="symbol">
+        <label for="symbol">Include Symbols</label>
+      </div>
+      <div class="strength">
+        <p>Strength</p>
+        <div class="status">
+          <p></p>
+          <img src="assets/images/status.png" alt="">
+        </div>
+      </div>
+      <button>Generate<img src="assets/images/icon-arrow-right.svg" alt=""></button>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

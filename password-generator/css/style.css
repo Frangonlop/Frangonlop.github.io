@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Jet Brains Mono";
+  src: url("../assets/fonts/JetBrainsMono-VariableFont_wght.ttf") format("truetype"), url("../assets/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf") format("truetype");
+}
+body {
+  background-color: #18171F;
+  padding: 30px 10px;
+  font-family: "Jet Brains Mono", sans-serif;
+}
+body .container h1 {
+  color: #817D92;
+  font-size: 16px;
+  text-align: center;
+}
+body .container .pass {
+  background-color: #24232C;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+body .container .pass > input {
+  background-color: #24232C;
+  color: #E6E5EA;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form {
+  color: #E6E5EA;
+  background-color: #24232C;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 10px;
+}
+form .long {
+  display: flex;
+  justify-content: space-between;
+}
+form .long output {
+  font-size: 25px;
+  color: #A4FFAF;
+}
+form input:hover {
+  cursor: pointer;
+}
+form input[type=range] {
+  accent-color: #A4FFAF;
+}
+form input[type=checkbox]:checked {
+  accent-color: #A4FFAF;
+}
+form button {
+  background-color: #A4FFAF;
+  padding: 15px;
+  border: 1px solid #A4FFAF;
+  text-transform: uppercase;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #A4FFAF;
+}
+form button img {
+  margin-left: 20px;
+}
+form .strength {
+  padding: 10px 20px;
+  background-color: #18171F;
+  display: flex;
+  justify-content: space-between;
+}
+form .strength .status {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+form .strength .status img {
+  width: 64px;
+  height: 28px;
+}
+form .strength .status p {
+  margin: 0;
+}
+form .strength p {
+  text-transform: uppercase;
+  color: #817D92;
+}
+
+#copyButton {
+  background-color: transparent;
+  border: 0;
+}
+#copyButton:hover {
+  cursor: pointer;
+  color: #E6E5EA;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
