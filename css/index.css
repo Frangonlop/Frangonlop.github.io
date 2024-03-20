@@ -18,13 +18,50 @@ p{
 }
 .container>nav>ul{
     list-style-type:none;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: center;
+}
+
+li>a>img{
+    width: 400px;
 }
 a{
     font-size: 20px;
     text-decoration: none;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 120px;
+    height: 40px;
+}
+.respon{
+    height: 200px;
+}
+div.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+div.menu img{
+    width: 70px;
+    height: fit-content;
+}
+.menu a{
+   display: flex;
+   align-items: center;
+   gap: 0;
+}
+.menu a p{
+    margin: 0;
+    color: #222;
+    font-size: 16px;
+    text-decoration: underline;
 }
