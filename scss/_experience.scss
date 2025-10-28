@@ -1,0 +1,60 @@
+.education_experience {
+    background-color: $back_present; // Periwinkle claro
+    padding: 3rem 1rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+    h2 {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        color: $text_main;
+        margin-bottom: 2rem;
+    }
+
+    article {
+        background: $card_bg;
+        border: 1px solid $card_border;
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        transition: transform 0.3s, box-shadow 0.3s;
+
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            font-family: "Space Grotesk", sans-serif;
+            font-size: 1.4rem;
+            color: $text_main;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-family: "Work Sans", sans-serif;
+            font-size: 1rem;
+            color: $text_secondary;
+            margin: 0.3rem 0;
+        }
+
+        ul {
+            margin-top: 0.8rem;
+            padding-left: 1.2rem;
+
+            li {
+                margin-bottom: 0.5rem;
+                font-family: "Work Sans", sans-serif;
+                font-size: 0.95rem;
+                color: $text_secondary;
+
+                &::marker {
+                    color: $back_header; // Marian Blue para bullets
+                }
+            }
+        }
+    }
+}

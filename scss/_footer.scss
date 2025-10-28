@@ -1,0 +1,83 @@
+.site_footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+
+    @include desktop {
+        padding: 3rem 4rem;
+    }
+
+    .footer_links {
+        &_title {
+            text-transform: uppercase;
+            font-weight: bold;
+            padding: 0.8rem 0;
+        }
+
+        div {
+            display: flex;
+            gap: 1.5rem;
+            padding-bottom: 1.5rem;
+
+            a {
+                color: #fff;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #00aaff;
+                }
+
+                i {
+                    display: block;
+                }
+            }
+        }
+
+        
+        @include mobile {
+            div a i {
+                font-size: 1.7rem;
+            }
+        }
+        
+        @include tablet {
+            div a i {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @include desktop {
+            div a i {
+                font-size: 2rem;
+            }
+        }
+    }
+    
+    .footer_bio{
+        padding-bottom: 1.5rem;
+        h2{
+            padding-bottom: 0.5rem;
+        }
+    }
+    .footer_copyright {
+        text-align: center;
+        font-size: 0.85rem; 
+        opacity: 0.8;
+        margin-top: 1rem;
+        border-top: 1px solid #444;
+        padding-top: 1rem;
+        
+        @include mobile {
+            font-size: 0.75rem;
+        }
+        
+        @include tablet {
+            font-size: 0.8rem;
+        }
+
+        @include desktop {
+            font-size: 0.85rem;
+        }
+    }
+}

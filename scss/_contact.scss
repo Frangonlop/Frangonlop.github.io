@@ -1,0 +1,53 @@
+.contact {
+  background-color: #f8f8ff; // un tono muy suave que contraste con la intro
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+  h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 2rem;
+    color: $text_main; // Marian Blue
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    color: $text_main;
+    margin: 0.5rem 0;
+
+    a {
+      color: #a6b1e1; // Periwinkle
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $hover; // Marian Blue
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* Opcional: enlaces de redes sociales como botones */
+  a[href*="linkedin"], a[href*="github"] {
+    display: inline-block;
+    margin: 0.5rem 0.8rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #a6b1e1;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $hover;
+      color: #fff;
+      border-color: $hover;
+      transform: translateY(-2px);
+    }
+  }
+}

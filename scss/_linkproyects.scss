@@ -1,0 +1,37 @@
+.link_proyects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background: $skills; // Azure Web → coherente con Skills
+    text-align: center;
+    border-radius: 12px;
+
+    p {
+        margin-top: 2rem;
+        font-size: 1rem;
+        color: $hover; // Marian Blue
+        font-family: "Work Sans", sans-serif;
+    }
+
+    h3 a {
+        font-size: 1.4rem;
+        color: $hover; 
+        border: 2px solid $back_present; // Periwinkle (igual que header)
+        padding: 0.8rem 1.8rem;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        background: #fff; // contraste sobre fondo
+
+        &:hover {
+            background: $hover;
+            color: #fff;
+            border-color: $hover;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+}

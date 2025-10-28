@@ -1,0 +1,51 @@
+.skills_section {
+    background-color: $skills;
+    padding: 2rem 1rem;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+    h2 {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        color: $hover;
+    }
+
+    h3 {
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        color: $hover;
+        border-left: 4px solid $back_header;
+        padding-left: 0.5rem;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 0.8rem;
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0;
+
+        li {
+            background: #fff;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            font-family: "Work Sans", sans-serif;
+            border: 1px solid $border_skills;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: $hover;
+                color: #fff;
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}

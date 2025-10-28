@@ -1,50 +1,145 @@
-<!doctype html>
-<html class="no-js" lang="es">
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <title>Indice</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/index.css">
-  <meta name="theme-color" content="#fafafa">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Currículum Francisco González</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="menu">
-      <a href="https://github.com/Frangonlop">
-        <img src="img/github.png" alt="">
-        <p>Github</p>
-      </a>
-      <div>
-        <h1>Proyectos</h1>
-        <p>Proyectos realizados</p>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index2.html"><img src="img/header.png" alt="">Headers</a></li>
-        <li><a href="web_responsive/index.html"><img class="respon" src="img/responsive.png" alt="">Web Resposive</a></li>
-        <li><a href="proyecto_flechas/index.html"><img src="img/f.png" alt="">Proyecto Flechas</a></li>
-        <li><a href="proyecto-bootstrap/index.html"><img src="img/bootstrap.png" alt="">Proyecto Bootstrap</a></li>
-        <li><a href="tres_en_raya/index.html"><img src="img/tres.png" alt="">Juego de tres en raya</a></li>
-        <li><a href="web_adicional/index.html"><img src="img/webad.png" alt="">Web adicional</a></li>
-        <li><a href="password-generator/index.html"><img src="img/gene.png" alt="">Generador de contraseñas</a></li>
-    </nav>
-  </div>
+    <header class="index_header">
+        <div class="index_header_left">
+            <img src="proyects/img/github.png" alt="Foto de perfil">
+            <div class="index_header_name">
+                <h1>Fran González</h1>
+            </div>
+        </div>
+        <nav class="index_header_nav">
+            <button class="menu-toggle" aria-expanded="false">☰</button>
+            <ul class="menu">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="intro">
+
+        <section class="intro_present">
+            <div class="intro_present_content">
+                <h2>Hola, soy Francisco González</h2>
+                <p>Construyo las interfaces de usuario más usables e interactivas para aplicaciones web complejas.
+                    Durante las prácticas trabaje desarollando tanto backend como frontend de una aplicación web, siendo esta última mi especialidad.</p>
+            </div>
+        </section>
+
+        <section class="education_experience">
+            <h2>Educación y Experiencia</h2>
+
+            <article>
+                <h3>Grado Superior en Desarrollo Web (DAW)</h3>
+                <p><strong>IES Francisco Javier de Burgos</strong> - Motril</p>
+                <p>2022-2024</p>
+            </article>
+
+            <article>
+                <h3>Prácticas de desarrollador web</h3>
+                <p><strong>Comerline</strong> - 2024 (3 meses)</p>
+                <ul>
+                    <li>Participé en el desarrollo de una plataforma de lotería de Navidad junto a un equipo de 3
+                        personas.</li>
+                    <li>Me enfoqué principalmente en el diseño y la maquetación de la interfaz de usuario con HTML y
+                        CSS.</li>
+                    <li>Colaboré en la implementación de la funcionalidad de búsqueda de números de lotería.</li>
+                    <li>Adquirí experiencia en trabajo en equipo y en el uso de metodologías ágiles.</li>
+                </ul>
+            </article>
+        </section>
+
+
+        <section class="skills_section">
+            <h2>Habilidades</h2>
+            <h3>Tecnologias que domino:</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Docker</li>
+                <li>Git y GitHub</li>
+            </ul>
+
+            <h3>Tecnologías con experiencia:</h3>
+            <ul>
+                <li>Python</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+
+        <section class="link_proyects" id="proyectos">
+            <h3><a href="proyects/index.html">Proyectos</a></h3>
+            <p>En el siguiente enlace encontrarás algunos de los proyectos que he realizado</p>
+        </section>
+        
+        <section class="contact" id="contacto">
+            <h2>Datos de contacto</h2>
+            <p>Telefono: <a href="tel:+34644633203">644 63 32 03</a>
+            <p>
+            <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fgonlop0706@gmail.com"
+                    target="_blank">fgonlop0706@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/francisco-gonzález-lópez-977a86252">Linkedin</a></p>
+            <p><a href="https://github.com/Frangonlop">Github</a></p>
+        </section>
+
+        <!-- Hacer una oferta a la empresa específica a la que se le esta mandando el curriculum, poniendo lo que le puedo añadir a la empresa mencionando tecnologías usadas por esa empresa -->
+
+        <!-- <section>
+            <h3>¿Que puedo aportar a la empresa?</h3>
+            <p></p>
+        </section> -->
+    </main>
+
+    <footer class="site_footer">
+        <div class="site_footer_content">
+            <div class="footer_links">
+                <p class="footer_links_title">Social</p>
+                <div>
+                    <a href="https://www.linkedin.com/in/francisco-gonzález-lópez-977a86252" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Frangonlop" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fgonlop0706@gmail.com"
+                    target="_blank">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_bio">
+                <h2>Fran González</h2>
+                <p>Desarrollador web | Diseño frontend y experiencia de usuario</p>
+            </div>
+
+            <p class="footer_copyright">&copy; 2025 Francisco González. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
